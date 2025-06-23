@@ -5,6 +5,6 @@ def printIncreasingPower(x):
     ##Your code here
     i=1
     while(i*i<=x):
-        print (i*i , end = " ");
-        i=i+1;
+        print (i*i , end = " ")
+        i=i+1
         
