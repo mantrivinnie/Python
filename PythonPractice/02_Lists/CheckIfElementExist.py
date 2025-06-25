@@ -25,7 +25,7 @@ else:
 
 #method-3
 list = [10, 20, 30, 40, 50]
-if a.count(40) > 0:
+if list.count(40) > 0:
     print("Element exists in the list")
 else:
     print("Element does not exist")
