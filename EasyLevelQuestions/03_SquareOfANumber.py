@@ -19,3 +19,5 @@ try:
 except ValueError:
     # Handle cases where the user enters non-numeric input.
     print("Invalid input. Please enter a valid number.")
+
+
