@@ -36,3 +36,5 @@ except ValueError:
     # Handle cases where the user enters non-integer input.
     print("Invalid input. Please enter a whole number (integer).")
 
+
+
