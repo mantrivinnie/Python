@@ -10,3 +10,12 @@ if is_palindrome(string):
     print("✅ The string is a palindrome.")
 else:
     print("❌ The string is not a palindrome.")
+
+
+
+#Enter a string: Madam
+#The string is a palindrome.
+
+#Enter a string: OpenAI
+#The string is not a palindrome.
+
