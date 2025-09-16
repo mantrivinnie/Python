@@ -1,3 +1,5 @@
+#To find all the prime numbers between a given range (here from 1 to 100)
+
 def is_prime(n):
     if n < 2:
         return False
