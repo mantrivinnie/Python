@@ -13,4 +13,7 @@ print("Sum of digits:", sum_of_digits(num))
 #Enter a number: 12345
 #Sum of digits: 15
 
-
+#Alternate 
+num = input("Enter a number: ")
+digit_sum = sum(int(digit) for digit in num)
+print("Sum of digits:", digit_sum)
