@@ -23,3 +23,13 @@ for word, count in result.items():
 #a: 1
 #test: 1
 #simple: 1
+
+#Alternate Code using collections.Counter
+from collections import Counter
+
+text = input("Enter a string: ")
+words = text.lower().split()
+freq = Counter(words)
+
+print("Word frequency:")
+print(freq)
