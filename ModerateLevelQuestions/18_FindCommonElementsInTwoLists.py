@@ -17,7 +17,7 @@ print("Common elements:", common)
 #Common elements: [4, 5]
 
 
-#Alternate Method
+#Alternate Method ------------- without using set 
 def common_elements(list1, list2):
     common = []
     for item in list1:
