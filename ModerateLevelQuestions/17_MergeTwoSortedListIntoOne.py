@@ -1,3 +1,5 @@
+# Program to merge two sorted lists into a single sorted list.
+
 def merge_sorted_lists(list1, list2):
     merged_list = []
     i, j = 0, 0
