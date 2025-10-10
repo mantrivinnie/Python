@@ -1,3 +1,5 @@
+#  Program to count the frequency of words in a string. 
+
 def word_frequency(text):
     # Convert to lowercase and split into words
     words = text.lower().split()
