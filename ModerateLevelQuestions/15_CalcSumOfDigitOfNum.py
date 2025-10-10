@@ -1,3 +1,5 @@
+# Program to calculate the sum of digits of a number.
+
 def sum_of_digits(n):
     total = 0
     while n > 0:
