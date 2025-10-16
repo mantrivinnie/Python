@@ -14,6 +14,7 @@ print("List 2:", list2)
 print("Common elements:", common)
 
 
+
 #List 1: [1, 2, 3, 4, 5]
 #List 2: [4, 5, 6, 7, 8]
 #Common elements: [4, 5]
