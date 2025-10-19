@@ -30,4 +30,3 @@ print("After removing duplicates:", remove_duplicates(numbers))
 
 
 
-
