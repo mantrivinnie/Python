@@ -1,3 +1,5 @@
+#program to check if two strings are anagrams.
+
 def are_anagrams(str1, str2):
     # Remove spaces and convert to lowercase
     str1 = str1.replace(" ", "").lower()
