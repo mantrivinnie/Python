@@ -28,4 +28,3 @@ print("After removing duplicates:", remove_duplicates(numbers))
 #Original list: [1, 2, 2, 3, 4, 4, 5]
 #After removing duplicates: [1, 2, 3, 4, 5]
 
-
