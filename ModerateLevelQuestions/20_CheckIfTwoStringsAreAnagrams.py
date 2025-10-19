@@ -1,5 +1,12 @@
 #program to check if two strings are anagrams.
 
+#Explanation:
+
+#Two strings are anagrams if they contain exactly the same characters with the same frequency, just arranged differently.
+
+#Example: "listen" and "silent" → both have one l, one i, one s, one t, one e, one n.
+
+
 def are_anagrams(str1, str2):
     # Remove spaces and convert to lowercase
     str1 = str1.replace(" ", "").lower()
