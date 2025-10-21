@@ -1,11 +1,12 @@
-#To print a multiplication table of a number
+# Program to print the multiplication table of a number
 
-def mulTable(n,x):
-    for i in x:
-        y = n*i
-    return y
+def print_table(n):
+    print(f"\nMultiplication Table of {n}:")
+    for i in range(1, 11):    # Table up to 10
+        print(f"{n} x {i} = {n * i}")
 
-num = input("Enter the multiplication table number:")
-table_till = input("Enter the table till digit:")
-output = mulTable(num,table_till)
-result = print("output is : " , output)
+# Take input
+num = int(input("Enter a number: "))
+
+# Print the table
+print_table(num)
