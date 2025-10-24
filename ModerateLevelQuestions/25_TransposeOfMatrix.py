@@ -37,3 +37,14 @@ for row in result:
 matrix = [[1, 2, 3], [4, 5, 6]]
 transpose = [[matrix[j][i] for j in range(len(matrix))] for i in range(len(matrix[0]))]
 print(transpose)
+
+
+#Output
+#Original Matrix:
+#[1, 2, 3]
+#[4, 5, 6]
+
+#Transposed Matrix:
+#[1, 4]
+#[2, 5]
+#[3, 6]
