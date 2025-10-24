@@ -32,7 +32,7 @@ print("\nTranspose:")
 for row in result:
     print(row)
 
-
+#--------------------------------
 #Alternate Method 
 matrix = [[1, 2, 3], [4, 5, 6]]
 transpose = [[matrix[j][i] for j in range(len(matrix))] for i in range(len(matrix[0]))]
