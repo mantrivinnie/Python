@@ -27,3 +27,11 @@ print("Sorted array:", sorted_arr)
 #Example
 #Original array: [12, 11, 13, 5, 6]
 #Sorted array: [5, 6, 11, 12, 13]
+
+#Explanation:
+#Insertion sort works like sorting cards in your hand.
+#It picks one element at a time and inserts it into the correct position among already-sorted elements.
+
+#Time Complexity:
+#Worst Case: O(n²)
+#Best Case (already sorted): O(n)
