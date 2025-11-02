@@ -22,3 +22,8 @@ arr = [12, 11, 13, 5, 6]
 print("Original array:", arr)
 sorted_arr = insertion_sort(arr)
 print("Sorted array:", sorted_arr)
+
+
+#Example
+#Original array: [12, 11, 13, 5, 6]
+#Sorted array: [5, 6, 11, 12, 13]
