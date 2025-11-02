@@ -18,3 +18,8 @@ arr = [64, 34, 25, 12, 22, 11, 90]
 print("Original array:", arr)
 sorted_arr = bubble_sort(arr)
 print("Sorted array:", sorted_arr)
+
+
+#Example
+#Original array: [64, 34, 25, 12, 22, 11, 90]
+#Sorted array: [11, 12, 22, 25, 34, 64, 90]
