@@ -30,3 +30,13 @@ print("Sorted array:", sorted_arr)
 #Example
 #Original array: [64, 25, 12, 22, 11]
 #Sorted array: [11, 12, 22, 25, 64]
+
+
+#Explanation:
+#Selection Sort works by repeatedly finding the minimum element from the unsorted portion
+#and swapping it with the first unsorted element.
+#After each pass, the sorted portion of the array grows by one element.
+
+#Time Complexity:
+#Best, Average, Worst Case → O(n²)
+#Works well for small lists.
