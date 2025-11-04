@@ -70,3 +70,9 @@ Stack elements are:
 Enter your choice: 2
 Popped element: 20
 """
+
+
+#Explanation:
+#A stack follows LIFO (Last In First Out) principle.
+#append() → used to push elements.
+#pop() → used to remove the top element.
