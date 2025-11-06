@@ -71,3 +71,8 @@ Enter your choice: 2
 Dequeued element: 10
 
 '''
+
+#Explanation:
+#A queue follows FIFO (First In First Out) principle.
+#append() → adds an element to the rear.
+#pop(0) → removes an element from the front.
