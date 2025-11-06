@@ -47,3 +47,27 @@ while True:
         break
     else:
         print("Invalid choice! Please try again.")
+
+
+'''
+Choose operation:
+1. Enqueue
+2. Dequeue
+3. Display
+4. Exit
+Enter your choice: 1
+Enter element to enqueue: 10
+10 added to the queue.
+
+Enter your choice: 1
+Enter element to enqueue: 20
+20 added to the queue.
+
+Enter your choice: 3
+Queue elements are:
+10 20
+
+Enter your choice: 2
+Dequeued element: 10
+
+'''
