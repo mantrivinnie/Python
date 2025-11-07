@@ -93,3 +93,28 @@ while True:
         print("Invalid choice! Please try again.")
 
 
+'''
+Choose operation:
+1. Insert
+2. Delete
+3. Display
+4. Exit
+Enter your choice: 1
+Enter value to insert: 10
+10 inserted into the linked list.
+
+Enter your choice: 1
+Enter value to insert: 20
+20 inserted into the linked list.
+
+Enter your choice: 3
+Linked List: 10 -> 20 -> None
+
+Enter your choice: 2
+Enter value to delete: 10
+Node with value 10 deleted.
+
+Enter your choice: 3
+Linked List: 20 -> None
+
+'''
