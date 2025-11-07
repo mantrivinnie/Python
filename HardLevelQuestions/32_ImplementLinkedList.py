@@ -118,3 +118,13 @@ Enter your choice: 3
 Linked List: 20 -> None
 
 '''
+
+#Explanation:
+#A linked list is a linear data structure where each element (node) contains:
+#Data
+#Pointer (next) to the next node.
+
+#The LinkedList class manages:
+#Insertion at the end
+#Deletion by value
+#Display of all nodes
