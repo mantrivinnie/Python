@@ -49,6 +49,8 @@ Average Case → O(n log n)
 Worst Case → O(n²) (when pivot selection is poor)
 '''
 
+#Alternative (In-place version using recursion):
+#If you want to sort the array without creating new lists:
 
 def quicksort_inplace(arr, low, high):
     if low < high:
