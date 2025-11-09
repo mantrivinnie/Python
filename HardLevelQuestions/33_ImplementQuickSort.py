@@ -22,3 +22,29 @@ print("Sorted array:", sorted_arr)
 
 #Original array: [10, 7, 8, 9, 1, 5]
 #Sorted array: [1, 5, 7, 8, 9, 10]
+
+
+
+'''
+Explanation:
+
+Quick Sort is a divide-and-conquer algorithm:
+
+Pick a pivot element (here, the middle one).
+
+Partition the array into:
+
+left: elements smaller than pivot
+
+middle: elements equal to pivot
+
+right: elements greater than pivot
+
+Recursively sort left and right, then combine.
+
+Time Complexity:
+
+Average Case → O(n log n)
+
+Worst Case → O(n²) (when pivot selection is poor)
+'''
