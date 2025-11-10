@@ -48,3 +48,14 @@ print("Sorted array:", arr)
 
 #Original array: [38, 27, 43, 3, 9, 82, 10]
 #Sorted array: [3, 9, 10, 27, 38, 43, 82]
+
+
+'''
+Explanation:
+Merge Sort is a classic Divide and Conquer algorithm:
+Divide the array into halves recursively until you reach single elements.
+Merge the halves back in sorted order.
+The merge_sort() function splits and merges until the array is fully sorted.
+'''
+
+
