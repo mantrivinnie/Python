@@ -58,4 +58,5 @@ Merge the halves back in sorted order.
 The merge_sort() function splits and merges until the array is fully sorted.
 '''
 
-
+#Time Complexity	: O(n log n)
+#Space Complexity : O(n)
