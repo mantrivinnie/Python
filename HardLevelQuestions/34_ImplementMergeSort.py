@@ -43,3 +43,8 @@ print("Original array:", arr)
 merge_sort(arr)
 
 print("Sorted array:", arr)
+
+
+
+#Original array: [38, 27, 43, 3, 9, 82, 10]
+#Sorted array: [3, 9, 10, 27, 38, 43, 82]
