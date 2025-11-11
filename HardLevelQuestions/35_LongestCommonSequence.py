@@ -38,3 +38,11 @@ Y = input("Enter second string: ")
 result = lcs(X, Y)
 print(f"\nLongest Common Subsequence: {result}")
 print(f"Length of LCS: {len(result)}")
+
+
+
+#Enter first string: ABCDGH
+#Enter second string: AEDFHR
+
+#Longest Common Subsequence: ADH
+#Length of LCS: 3
