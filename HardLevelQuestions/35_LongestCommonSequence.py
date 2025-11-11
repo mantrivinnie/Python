@@ -56,3 +56,7 @@ For example:
 X = "ABCDGH", Y = "AEDFHR"
 → LCS = "ADH"
 '''
+
+#Time Complexity :O(m × n)
+#Space Complexity : O(m × n)
+	
