@@ -46,3 +46,13 @@ print(f"Length of LCS: {len(result)}")
 
 #Longest Common Subsequence: ADH
 #Length of LCS: 3
+
+
+'''
+Explanation:
+LCS (Longest Common Subsequence) means the longest sequence of characters that appear in both strings in the same order (not necessarily contiguous).
+
+For example:
+X = "ABCDGH", Y = "AEDFHR"
+→ LCS = "ADH"
+'''
