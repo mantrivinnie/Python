@@ -61,4 +61,5 @@ Whether the subtree is balanced.
 It uses post-order traversal (left → right → root) so that each node is checked only once.
  Time Complexity: O(n) — every node is visited once.
  Space Complexity: O(h) — for recursion stack, where h is the height of the tree.
+ 
 '''
