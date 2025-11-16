@@ -1,5 +1,10 @@
 # Program to check if a Binary Tree is balanced
 
+
+#Definition:
+#A binary tree is balanced if for every node, the difference in height between the left and right subtrees is no more than 1.
+#(i.e., |height(left) - height(right)| ≤ 1 for all nodes)
+
 # Node class for the binary tree
 class Node:
     def __init__(self, key):
