@@ -47,3 +47,18 @@ if is_balanced(root):
     print("✅ The binary tree is balanced.")
 else:
     print("❌ The binary tree is not balanced.")
+
+
+'''
+
+If you remove root.left.left.left = Node(6) (so both sides have nearly equal depth):
+The binary tree is balanced.
+
+Explanation:
+The helper function check(node) computes both:
+The height of each subtree.
+Whether the subtree is balanced.
+It uses post-order traversal (left → right → root) so that each node is checked only once.
+ Time Complexity: O(n) — every node is visited once.
+ Space Complexity: O(h) — for recursion stack, where h is the height of the tree.
+'''
