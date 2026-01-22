@@ -1,7 +1,7 @@
 from PIL import Image
 import numpy as np
 
-img = Image.open("smile1.jpeg").convert("L")
+img = Image.open(r"C:\Users\Owner\Desktop\smile1.jpeg").convert("L")
 img = img.resize((100, 100))
 
 pixels = np.array(img)
