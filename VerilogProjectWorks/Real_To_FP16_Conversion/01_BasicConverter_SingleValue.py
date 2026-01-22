@@ -11,3 +11,4 @@ print(float_to_fp16_hex(0.5))     # 0x3800
 print(float_to_fp16_hex(1.25))    # 0x3D00
 print(float_to_fp16_hex(-0.5))    # 0xB800
 print(float_to_fp16_hex(3.25))    # 0x4280
+print(float_to_fp16_hex(2.0))     # 0x4000
